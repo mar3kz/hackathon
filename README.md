@@ -12,6 +12,11 @@ att4hack
 5. fotka pomoci
    rpicam-still -t 2000 -q 100 --width 3280 --height 2464 -o fotka3.jpg (lepsi rozliseni - horsi na focus)
    rpicam-still -t 2000 -q 100  -o fotka3.jpg (lepsi pro focus)
+-t cekani 2000 ms pro skenovani a nastaveni nejlepsich settings pro fotku
+-q zadna komprese
+--width --height resolution
 
 fotka hostovana pres python server, na prohlizeci http://10.10.1.5:8080/fotka3.jpg
 pytesseract nebylo moc presne pro mala pismena
+
+link: https://github.com/Renecekk/atthack/blob/master/raspberry.md
